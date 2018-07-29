@@ -5,11 +5,11 @@ The objective of this case study is to help a company identify fraudulent events
 ## Results
 1. The fraud and non-fraud class distributions are significantly different...
 
-![Classes Chart](https://github.com/mcarpanelli/dsi-fraud-detection-case-study/blob/hamilmar/figures/classes.png?raw=true)
+![Classes Chart](https://github.com/mcarpanelli/Fraud-Prediction/blob/master/figures/classes.png?raw=true)
 
 ...which translates into very high model performance.
 
-![ROC Chart](https://github.com/mcarpanelli/dsi-fraud-detection-case-study/blob/hamilmar/figures/roc.png?raw=true)
+![ROC Chart](https://github.com/mcarpanelli/Fraud-Prediction/blob/master/figures/roc.png?raw=true)
 
 2. The top features in terms of average contribution to information gains are:
     * Number of previous payouts
@@ -19,7 +19,7 @@ The objective of this case study is to help a company identify fraudulent events
     * User age
     * Average ticket price
 
-![Importances Chart](https://github.com/mcarpanelli/dsi-fraud-detection-case-study/blob/hamilmar/figures/feature_importances.png?raw=true)
+![Importances Chart](https://github.com/mcarpanelli/Fraud-Prediction/blob/master/figures/feature_importances.png?raw=true)
 
 3. Features positively associated with the probability of a fraudulent event are:
     * The proportion of capital letters in the title of an event
@@ -35,7 +35,7 @@ The objective of this case study is to help a company identify fraudulent events
     * User age
     * Number of channels where the event is published
 
-![PDPs Chart](https://github.com/mcarpanelli/dsi-fraud-detection-case-study/blob/hamilmar/figures/pdp.png?raw=true)
+![PDPs Chart](https://github.com/mcarpanelli/Fraud-Prediction/blob/master/figures/pdp.png?raw=true)
 
 ## Recommendations
 
